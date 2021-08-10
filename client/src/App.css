@@ -1,0 +1,45 @@
+.page-container {
+    padding-top: 30vh;
+    padding-bottom: 6vh;
+}
+
+.center-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-width {
+    width: clamp(300px, 500px, 700px);
+    margin: auto;
+}
+
+.txt-16 {
+    font-size: 16px;
+}
+
+.segment-width {
+    width: 96vw !important;
+}
+
+.example {
+    border-top: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.word-sub {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .page-container {
+        padding-top: 10vh;
+    }
+
+    .segment-width {
+        width: 60vw !important;
+    }
+}
