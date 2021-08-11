@@ -10,7 +10,7 @@
 }
 
 .form-width {
-    width: clamp(300px, 500px, 700px);
+    width: 90vw !important;
     margin: auto;
 }
 
@@ -41,5 +41,9 @@
 
     .segment-width {
         width: 60vw !important;
+    }
+
+    .form-width {
+        width: 500px !important;
     }
 }

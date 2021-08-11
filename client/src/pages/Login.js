@@ -39,7 +39,7 @@ const Register = () => {
     }
 
     return (
-        <div className="">
+        <div className="form-width">
             <Form className={loading ? "loading" : "form-width"} onSubmit={onSubmit}>
                 <h1>Login</h1>
                 <Form.Input
