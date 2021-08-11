@@ -96,7 +96,7 @@ const WordDetail = () => {
                                     <p>
                                         Other Dictionary:{" "}
                                         <a
-                                            href="https://google.com"
+                                            href={data.getWord.src}
                                             target="_blank"
                                             rel="noreferrer"
                                         >
